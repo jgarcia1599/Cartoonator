@@ -1,1 +1,3 @@
-# Cartoonator
+- Magenta.js 
+ - https://glitch.com/edit/#!/lightning-dot-hoof?path=script.js%3A1%3A0
+ - https://magenta.tensorflow.org/blog/2018/12/20/style-transfer-js/
