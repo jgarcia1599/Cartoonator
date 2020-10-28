@@ -10,7 +10,7 @@ body {
 
 #title { 
   font-family: 'Gloria Hallelujah', cursive;
-  color: white;
+  color: black;
 }
 
 
@@ -25,7 +25,7 @@ h2 {
 }
 
 .intro{
-  color: white;
+  color: black;
 }
 .dark {
   color: #2d1832;
@@ -41,7 +41,6 @@ h2 {
 .left {
   width: 50vw;
   max-width: 800px;
-  background: #2d1832;
   text-align: center;
 }
 
@@ -53,7 +52,6 @@ h2 {
 }
 
 .frame {
-  color: white;
   padding: 24px;
   margin: 12px;
 }
@@ -67,8 +65,8 @@ h2 {
   cursor: pointer;
   border: none;
   vertical-align: middle;
-  background: #f7f1f8;
-  color: #2d1832;
+  background: #73ff61;
+  color: black;
   font-weight: 600;
   text-transform: uppercase;
   margin: 0 16px;
@@ -76,6 +74,7 @@ h2 {
   font-size: 14px;
   text-align: center;
   border-radius: 3px;
+  border-radius: 12px;
   transition: all 0.25s ease-in 0s;
 }
 
