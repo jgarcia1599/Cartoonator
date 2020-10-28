@@ -16,8 +16,9 @@
     <div class="container">
       <div class="left">
         <h1 id="title">
-          <b>Arbitrary</b> Style Transfer with <a href="https://www.npmjs.com/package/@magenta/image">magenta.js</a>
+          <b>Cartoonator and Draw!!</b>
         </h1>
+        <p class = "intro">Upload a photo and/or cartoon to see the cartoon style applied to the image. <br>And afterwards feel free to draw on the cartoonized image produced. Enjoy!</p>
       </div>
     </div>
     
@@ -25,18 +26,18 @@
       <div class="left">
         <div class="frame">
           <h2>Step 1. <label>upload photo <input type="file" onchange="loadContent(event)"></label></h2>
-          <img id="content" class="image" crossorigin="anonymous" src="https://cdn.glitch.com/93893683-46da-4058-829c-a05792722f2b%2Fcontent.jpg?1545163443723"/> 
+          <img id="content" class="image" crossorigin="anonymous" src="https://cdn.glitch.com/902f9414-a728-47c6-bf5c-6fc3d25b6618%2Fla.jpg?v=1603866677482"/> 
         </div>
         <div class="right">
           <div class="frame">
              <h2>Step 2. <label>upload style <input type="file" onchange="loadStyle(event)"></label></h2>
-             <img id="style" class="image" crossorigin="anonymous" src="https://cdn.glitch.com/93893683-46da-4058-829c-a05792722f2b%2Fstyle.jpg?1545163447216" />
+             <img id="style" class="image" crossorigin="anonymous" src="https://cdn.glitch.com/902f9414-a728-47c6-bf5c-6fc3d25b6618%2Fspongebob.jpg?v=1603866715660" />
           </div>
         </div>
       </div> 
       
       <div class="frame">
-        <h2 class="dark">Step 3. <span id="loading">Transmogrifying ...</span><span id="ready" hidden>Profit!</span></h2>
+        <h2 class="dark">Step 3. <span id="loading">Applying cartoon to image ...</span><span id="ready" hidden>Tadaa!</span></h2>
         <span style="color: black;"><a id="download" download="myImage.jpg" href="" onclick="download_img(this);">Download to myImage.jpg</a></span>
        <span style="color: black;">Color :</span> <select id="selColor">
           <option value="black">black</option>

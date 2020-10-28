@@ -10,7 +10,7 @@ body {
 
 #title { 
   font-family: 'Gloria Hallelujah', cursive;
-  
+  color: white;
 }
 
 
@@ -24,8 +24,9 @@ h2 {
   padding-top: 0;
 }
 
-
-
+.intro{
+  color: white;
+}
 .dark {
   color: #2d1832;
 }
