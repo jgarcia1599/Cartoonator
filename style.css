@@ -78,6 +78,36 @@ h2 {
   transition: all 0.25s ease-in 0s;
 }
 
+.download {
+  cursor: pointer;
+  border: none;
+  vertical-align: middle;
+  background: #73ff61;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 16px;
+  padding: 8px 24px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 3px;
+  border-radius: 12px;
+  transition: all 0.25s ease-in 0s;
+}
+
+.download a {
+  color: black;
+  text-decoration: none;
+}
+
+.download a:hover 
+{
+   color:black; 
+   text-decoration:none; 
+   cursor:pointer;  
+}
+
+
 input[type="file"] {
   width: 0;
   height: 0;
@@ -94,6 +124,8 @@ input[type="file"] {
 
 canvas {
   margin-bottom: 100px;
+  width: 500px;
+  height: 600px;
 }
 
 #loading {

@@ -5,6 +5,7 @@ const contentImg = document.getElementById('content');
 const styleImg = document.getElementById('style');
 const loading = document.getElementById('loading');
 const notLoading = document.getElementById('ready');
+const notLoading_instruments = document.getElementById('instruments');
 
 setupDemo();
 
@@ -55,13 +56,15 @@ function loadStyle(event) {
 
 function startLoading() {
   loading.hidden = false;
-  notLoading.hidden = true;  
+  notLoading.hidden = true;
+  notLoading_instruments.style.display = "none";  
   canvas.style.opacity = 0;
 }
 
 function stopLoading() {
   loading.hidden = true;
   notLoading.hidden = false; 
+  notLoading_instruments.style.display = "block";  
   canvas.style.opacity = 1;
 }
 
