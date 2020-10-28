@@ -111,9 +111,3 @@ download_img = function(el) {
   var image = canvas.toDataURL("image/jpg");
   el.href = image;
 };
-
-//New Canvas setup resources: 
-
-//https://jsfiddle.net/user2314737/28wqq1gu/
-//https://www.codicode.com/art/how_to_draw_on_a_html5_canvas_with_a_mouse.aspx
-	
